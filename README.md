@@ -1,7 +1,7 @@
 # Apache-AirFlow
 
 
-1) "AIRFLOW_DAG_FILES.DAG" -- File contains all the work flow of the STAR WARS API data import process using Apache Airflow .
+1) "AIRFLOW_DAG_FILES.py" -- File contains all the work flow of the STAR WARS API data import process using Apache Airflow .
 
 i) Step1: "ExtractJSON_FROM_STARWARS_API.py" - python file will extract the json data from Star Wars API and save the json data into "STAR_WARS_API.json" file.
 
