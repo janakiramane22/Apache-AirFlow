@@ -11,9 +11,9 @@ and also the results will be ordered by character age while inserting into the f
                       b) "Import_Log.txt " file contains the query execution results to identify the status.
      iv) The above mentioned BAT will execute based on the STEP1 json data extraction completion in DAG. I have mentioned the two possible ways to execute task2 (import data to DB server).
      v) This "IMPORT_DATA.BAT" file execution scripts added into "STARWARS_API_Imports_DATA.py" file and this task added into Airflow DAG.
-    vi) I am not having the proper setup for Apache Airflow tasks. So, I have shared the DAG flows in the "AIRFLOW_DAG_FILES.DAG" file.
 
-Please find the attached zip folder which contains all the scripts based on the above request.
+Note: I am not having the proper setup for Apache Airflow tasks. So, I have shared the DAG flows in the "AIRFLOW_DAG_FILES.py" file.
 
-Note: Before executing the DAG script we need to change the .BAT file extension ''.BAT1' to '.BAT'
+
+
 
